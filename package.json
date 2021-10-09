@@ -1,0 +1,32 @@
+{
+  "name": "@alitajs/url-local",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "father-build"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaohuoni/umi-plugin-mobile-dumi"
+  },
+  "authors": [
+    "xiaohuoni <xiaohuoni@gmail.com> (https://github.com/xiaohuoni)"
+  ],
+  "license": "MIT",
+  "bugs": "https://github.com/xiaohuoni/umi-plugin-mobile-dumi/issues",
+  "homepage": "https://github.com/xiaohuoni/umi-plugin-mobile-dumi#readme",
+  "peerDependencies": {
+    "@umijs/plugin-locale": "^0.14.2"
+  },
+  "devDependencies": {
+    "@umijs/types": "^3.5.17",
+    "@umijs/utils": "^3.5.20",
+    "father-build": "^1.20.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
